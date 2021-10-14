@@ -5,15 +5,36 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "servStart": "nodemon backend/index.js"
   },
   "dependencies": {
-    "expo": "~42.0.1",
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/native-stack": "^6.2.2",
+    "@react-navigation/stack": "^6.0.11",
+    "dotenv": "^10.0.0",
+    "expo": "^42.0.1",
     "expo-status-bar": "~1.0.4",
+    "express": "^4.17.1",
+    "i18next": "^21.2.3",
+    "immer": "^9.0.6",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-i18next": "^11.12.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-svg": "12.1.1",
+    "react-native-web": "~0.13.12",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0",
+    "uuid": "^3.4.0",
+    "zustand": "^3.5.13"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
